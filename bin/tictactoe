@@ -2,8 +2,15 @@
 require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
 
+#<<<<<<< HEAD
 
     game = TicTacToe.new
     game.play
  
+=======
+def initialize (board = nil)
+    @board = board || Array.new(9, " ")
+    game = TicTacToe.new
+  end
+#>>>>>>> 0d272fb9a9cd23ec12dd070425015cdfd84ab1fb
  
